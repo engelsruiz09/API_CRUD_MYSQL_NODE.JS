@@ -33,7 +33,6 @@ WordPress estará disponible en http://localhost:8080.
 ```
 ![Imagen 2](images/docker2.jpeg)
 
-
 ![Imagen 3](images/imagenesdocker.png)
 
 ![Imagen 4](images/containers.png)
