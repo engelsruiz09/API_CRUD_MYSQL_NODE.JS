@@ -18,7 +18,7 @@ Configuración del Entorno con Docker
 docker pull bitnami/mysql:latest
 docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=my_password -p 3306:3306 bitnami/mysql:latest
 ```
-![Imagen 1](images/docker1.png)
+![Imagen 1](images/docker1.jpeg)
 
 Esto iniciará una instancia de MySQL. my_password debe ser reemplazado por contraseña deseada.
 
@@ -31,7 +31,7 @@ docker pull wordpress:latest
 docker run -d --name wordpress --link mysql-server:mysql -p 8080:80 wordpress:latest
 WordPress estará disponible en http://localhost:8080.
 ```
-![Imagen 2](images/docker2.png)
+![Imagen 2](images/docker2.jpeg)
 
 
 ![Imagen 3](images/imagenesdocker.png)
@@ -72,12 +72,15 @@ Uso de la API
 La API soporta las siguientes operaciones CRUD:
 
     POST /items: Crea un nuevo item.
-![Imagen 6](images/POST.png)    
+![Imagen 6](images/POST.png)   
+
     GET /items: Obtiene todos los items.
     GET /items/:id: Obtiene un item por su ID.
 ![Imagen 7](images/GET.png)  
+
     PUT /items/:id: Actualiza un item por su ID.
 ![Imagen 8](images/PUT.png)  
+
     DELETE /items/:id: Elimina un item por su ID.
 ![Imagen 9](images/DELETE.png)  
 
