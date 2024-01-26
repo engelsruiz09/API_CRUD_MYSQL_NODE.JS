@@ -1,13 +1,13 @@
-## API_CRUD_MYSQL_NODE.JS
+# API_CRUD_MYSQL_NODE.JS
 
 Este proyecto incluye una API en Node.js que realiza operaciones CRUD en una base de datos MySQL. También incluye un entorno Docker con MySQL y WordPress.
 Configuración del Entorno con Docker
-###Prerrequisitos
+### Prerrequisitos
 
     Docker Desktop instalado en máquina.
     Conocimientos básicos de Docker y manejo de contenedores.
 
-##Pasos de Configuración
+## Pasos de Configuración
 
     MySQL con Docker
 
@@ -31,13 +31,13 @@ A continuación, descarga y ejecuta la imagen de WordPress:
 
     WordPress estará disponible en http://localhost:8080.
 ```
-##Configuración de la API en Node.js
-###Prerrequisitos
+## Configuración de la API en Node.js
+### Prerrequisitos
 
    > Node.js instalado en tu máquina.
    > Conocimientos básicos de Node.js y npm.
 
-###Pasos de Configuración
+### Pasos de Configuración
 
     Clonar el Repositorio
 
@@ -54,7 +54,7 @@ npm install
 
 Esto instalará todas las dependencias necesarias.
 
-##Configurar Conexión a MySQL
+## Configurar Conexión a MySQL
 
 El archivo database.js tenga las credenciales correctas para conectarse a tu instancia de MySQL.
 
