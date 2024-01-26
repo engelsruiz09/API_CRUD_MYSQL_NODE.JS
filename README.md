@@ -4,8 +4,8 @@ Este proyecto incluye una API en Node.js que realiza operaciones CRUD en una bas
 Configuración del Entorno con Docker
 ###Prerrequisitos
 
-    >Docker Desktop instalado en máquina.
-    >Conocimientos básicos de Docker y manejo de contenedores.
+    Docker Desktop instalado en máquina.
+    Conocimientos básicos de Docker y manejo de contenedores.
 
 ##Pasos de Configuración
 
@@ -39,13 +39,13 @@ A continuación, descarga y ejecuta la imagen de WordPress:
 
 ###Pasos de Configuración
 
-    >Clonar el Repositorio
+    Clonar el Repositorio
 
-    >Clona el repositorio en tu máquina local.
+    Clona el repositorio en tu máquina local.
 
-    >Instalar Dependencias
+    Instalar Dependencias
 
-    >En el directorio del proyecto, ejecuta:
+    En el directorio del proyecto, ejecuta:
 
 ```bash
 
@@ -72,11 +72,11 @@ Uso de la API
 
 La API soporta las siguientes operaciones CRUD:
 
-    >POST /items: Crea un nuevo item.
-    >GET /items: Obtiene todos los items.
-    >GET /items/:id: Obtiene un item por su ID.
-    >PUT /items/:id: Actualiza un item por su ID.
-    >DELETE /items/:id: Elimina un item por su ID.
+    POST /items: Crea un nuevo item.
+    GET /items: Obtiene todos los items.
+    GET /items/:id: Obtiene un item por su ID.
+    PUT /items/:id: Actualiza un item por su ID.
+    DELETE /items/:id: Elimina un item por su ID.
 
 La herramienta curl para interactuar con la API.
 
