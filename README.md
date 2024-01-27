@@ -22,7 +22,7 @@ docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=my_password -p 3306:330
 
 Esto iniciará una instancia de MySQL. my_password debe ser reemplazado por contraseña deseada.
 
-WordPress con Docker
+## WordPress con Docker
 
 A continuación, descarga y ejecuta la imagen de WordPress:
 
