@@ -37,6 +37,33 @@ WordPress estará disponible en http://localhost:8080.
 
 ![Imagen 4](images/containers.png)
 
+## Visualización de pasos en página de WordPress
+### Página de inicio
+![Imagen 10](images/HomePage.png)
+
+### Página de instalación de wordpress
+![Imagen 11](images/Pagina1.png)
+
+![Imagen 12](images/Pagina1.2.png)
+
+### Página de comandos de contenedores
+
+![Imagen 13](images/Pagina2.png)
+
+![Imagen 14](images/Pagina2.2.png)
+
+### Página de creación de base de datos
+
+![Imagen 15](images/Pagina3.png)
+
+### Página de funciones CRUD
+
+![Imagen 16](images/Pagina4.png)
+
+### Página de salidas CRUD
+
+![Imagen 17](images/Pagina5.png)
+
 ## Configuración de la API en Node.js
 ### Prerrequisitos
 
